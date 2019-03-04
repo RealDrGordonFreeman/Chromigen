@@ -1,3 +1,10 @@
+<h1 align="center">
+  <br>
+    <img src="chromigen.png" alt="Chromigen Logo" width=400>
+  <br>
+  <br>
+</h1>
+
 # Chromigen #
 
 Chromigen is a PowerShell script to download, install, and update the latest build of Chromium for Windows **directly from the Chromium Project.**
