@@ -9,6 +9,8 @@
 
 Chromigen is a PowerShell script to download, install, and update the latest build of Chromium for Windows **directly from the Chromium Project.**
 
+Download it here: https://github.com/RealDrGordonFreeman/Chromigen/releases/download/v1.0/chromigen.ps1
+
 Chromigen is most useful to developers who need the very latest Chromium build but can also be used in an enterprise or at home. Chromigen currently runs interactively and requires user input. An automated version which uses an answer file will be released later. Full commenting within the script will also be added at a later time. 
 
 Chromigen is designed to work best with Windows 10, and requires **PowerShell v6.0 or higher**. 
