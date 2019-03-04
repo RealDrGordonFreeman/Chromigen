@@ -53,6 +53,6 @@ and
 
 ## Known Issues ##
 
-**Issue 1:** When launching Chromium via the batch file option, a command line terminal window will briefly flash on screen. To mitigate this annoyance, go into the properties of each of the two Chromium shortcuts and for the ‘Run’ option, select ‘Minimized’. This should be before pinning the shortcuts to the Start menu or the taskbar. A solution is being sought to automate the 'Minimized' option and there may be a PowerShell bug in '.WindowStyle = 1' which is preventing the option from being set properly.
+**Issue 1:** When launching Chromium via the batch file option, a command line terminal window will briefly flash on screen. To mitigate this annoyance, go into the properties of each of the two Chromium shortcuts and for the ‘Run’ option, select ‘Minimized’. This should done be before pinning the shortcuts to the Start menu or the taskbar. A solution is being sought to automate the 'Minimized' option and there may be a PowerShell bug in '.WindowStyle = 1' which is preventing the option from being set properly within the shortcut.
 
 **Issue 2:** If Chromium is selected as the default browser on a Windows system and Chromium launches without a shortcut, the batch file customizations will not be loaded. This is a limitation in the Windows 10 system where default programs cannot be launched from a specific file, in this case the batch file. There are various registry hacks which can be done as a workaround to fix this, so if this is very important for your environment search the internet for how this can be done. 
