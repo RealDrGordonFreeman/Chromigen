@@ -13,7 +13,7 @@ Download the Chromigen PowerShell script here: https://github.com/RealDrGordonFr
 
 Chromigen is most useful to developers who need the very latest Chromium build but can also be used in an enterprise or at home. Chromigen currently runs interactively and requires user input. An automated version which uses an answer file will be released later. Full commenting within the script will also be added at a later time. 
 
-Chromigen is designed to work best with Windows 10, and requires **PowerShell v6.0 or higher**. 
+Chromigen is designed to work best with Windows 10, and requires **PowerShell v5.0 or higher**. 
 
 If PowerShell scripting has been restricted on your system (the default), Chromigen can still be run by assigning temporary bypass permissions to the script to allow it to execute, with the following command within PowerShell:
 
