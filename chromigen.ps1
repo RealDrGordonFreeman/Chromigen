@@ -1,14 +1,18 @@
-﻿# ------------------------------------------------------------------------------------------------------------------------------------------ #
+# ------------------------------------------------------------------------------------------------------------------------------------------ #
+
+#  Chromigen v1.1
 
 #  THIS SCRIPT REQUIRES POWERSHELL v6.0 OR HIGHER TO RUN
 
 #  CHROMIUM INSTALLER & UPDATER FOR WINDOWS 8 & 10 (32-bit & 64-bit) FOR LATEST CHROMIUM BUILD.
 
+#  https://github.com/RealDrGordonFreeman/Chromigen/
+
 # ------------------------------------------------------------------------------------------------------------------------------------------ #
 
 cls
 
-Write-Host "WELCOME TO THE CHROMIUM INSTALLER AND UPDATER FOR WINDOWS."
+Write-Host "WELCOME TO CHROMIGEN - THE CHROMIUM INSTALLER AND UPDATER FOR WINDOWS."
 
 Write-Host "`n"
 
@@ -1162,7 +1166,7 @@ else
 
     {
     
-    Write-Host "CHROMIUM INSTALLATION/UPDATE COMPLETE!"
+    Write-Host "CHROMIUM INSTALLATION/UPDATE COMPLETE! THANK YOU FOR USING CHROMIGEN."
     
     Write-Host "`n"
 
