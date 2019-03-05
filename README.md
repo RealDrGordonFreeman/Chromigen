@@ -56,3 +56,27 @@ and
 **Issue 1:** When launching Chromium via the batch file option, a command line terminal window will briefly flash on screen. To mitigate this annoyance, go into the properties of each of the two Chromium shortcuts and for the ‘Run’ option, select ‘Minimized’. This should done be before pinning the shortcuts to the Start menu or the taskbar. A solution is being sought to automate the 'Minimized' option and there may be a PowerShell bug in '.WindowStyle = 1' which is preventing the option from being set properly within the shortcut.
 
 **Issue 2:** If Chromium is selected as the default browser on a Windows system and Chromium launches without a shortcut, the batch file customizations will not be loaded. This is a limitation in the Windows 10 system where default programs cannot be launched from a specific file, in this case the batch file. There are various registry hacks which can be done as a workaround to fix this, so if this is very important for your environment search the internet for how this can be done. 
+
+## License ##
+
+MIT License
+
+Copyright (c) 2019 Dr. Gordon Freeman
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
